@@ -1,0 +1,21 @@
+.Recipes_Container{
+        border: solid black;
+
+}
+
+.Recipe_Container{
+    border: solid green;
+    /* background: white; */
+    margin: 0 auto;
+    width: 60%;
+}
+
+.Recipe_Container > h1 {
+    border: solid red;
+}
+
+.Recipe_Container > img {
+    width: 500px;
+    height: 500px;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit witht the value "contain"*/
+}
