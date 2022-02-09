@@ -4,18 +4,34 @@
 }
 
 .Recipe_Container{
-    border: solid green;
+    border: solid  #d4d2d0;
     /* background: white; */
     margin: 0 auto;
-    width: 60%;
+    width: 90%;
+  
 }
 
 .Recipe_Container > h1 {
-    border: solid red;
+    border: solid rgb(247, 239, 239);
+    margin-left: auto;
+    margin-right: auto;
+    line-height:2;
+
+    
 }
 
 .Recipe_Container > img {
     width: 500px;
-    height: 500px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  /*  margin:  30px 250px;*/
+  /*  object-fit: center;*/
+ 
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit witht the value "contain"*/
 }
+
+.Recipe_Container > img:hover {
+    transform: scaleX(-1);
+  }

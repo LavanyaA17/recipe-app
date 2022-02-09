@@ -33,9 +33,11 @@ console.log(recipes);
  { recipes && recipes.map((recipe) => (
        <div className="Recipe_Container">
          <h1>{recipe.recipe_title}</h1>
-         <p>{recipe.description}</p>
-         <p>{recipe.procedure}</p>
          <img src={recipe.image}/> 
+         <p>{recipe.description}</p>
+        <p>{recipe.ingrdients}</p>
+         <p>{recipe.procedure}</p>
+         
        </div>
      ))}
      
