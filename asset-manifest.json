@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/recipe-app/static/css/main.ccd23a3f.css",
-    "main.js": "/recipe-app/static/js/main.71162db4.js",
+    "main.js": "/recipe-app/static/js/main.2c0e6123.js",
     "static/media/DSC_0181.jpeg": "/recipe-app/static/media/DSC_0181.031d253a39be526069e9.jpeg",
     "static/media/Kasespatzle-15-lighter.jpeg": "/recipe-app/static/media/Kasespatzle-15-lighter.b8018da018e51c548542.jpeg",
     "static/media/media.media.f88991c4-293c-4bfa-8380-38291e53da2d.original1024.jpg": "/recipe-app/static/media/media.media.f88991c4-293c-4bfa-8380-38291e53da2d.original1024.9c0764340aa501c8a535.jpg",
@@ -11,10 +11,10 @@
     "static/media/quick-and-easy-snow-ice-cream-16.jpeg": "/recipe-app/static/media/quick-and-easy-snow-ice-cream-16.99639e6cc92a484ed150.jpeg",
     "index.html": "/recipe-app/index.html",
     "main.ccd23a3f.css.map": "/recipe-app/static/css/main.ccd23a3f.css.map",
-    "main.71162db4.js.map": "/recipe-app/static/js/main.71162db4.js.map"
+    "main.2c0e6123.js.map": "/recipe-app/static/js/main.2c0e6123.js.map"
   },
   "entrypoints": [
     "static/css/main.ccd23a3f.css",
-    "static/js/main.71162db4.js"
+    "static/js/main.2c0e6123.js"
   ]
 }
