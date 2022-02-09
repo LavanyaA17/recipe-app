@@ -5,7 +5,7 @@ import { NavigationBar } from './components/NavigationBar';
 import { Home } from './Home';
 import { About } from './About';
 import Recipes  from './Recipes';
-import { NoMatch } from './NoMatch';
+import { Contact } from './Contact';
 import Sidebar from './components/Sidebar';
 import { FooterContainer } from './containers/footer';
 
@@ -20,7 +20,7 @@ function App() {
      <Route exact path="/" component={Home} />
      <Route path="/recipes" component={Recipes} />
      <Route path="/about" component={About} />
-     <Route component={NoMatch} />
+     <Route path="/contact" component={Contact} />
      </Switch>
      <FooterContainer />
       </Router>
