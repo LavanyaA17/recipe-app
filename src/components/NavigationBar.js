@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import styled from 'styled-components';
 const Styles = styled.div`
   .navbar { background-color: #80ced6 }
@@ -28,10 +29,10 @@ export const NavigationBar = () => (
       </Form>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/recipes">Recipes</Nav.Link></Nav.Item> 
-          <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link> <Link to="/">Home</Link></Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link ><Link to="/recipes">Recipes</Link></Nav.Link></Nav.Item> 
+          <Nav.Item><Nav.Link ><Link to="/about">About</Link></Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link><Link to="/contact">Contact</Link></Nav.Link></Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
