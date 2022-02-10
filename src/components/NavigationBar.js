@@ -22,7 +22,7 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/">My Recipes</Navbar.Brand>
+      <Navbar.Brand href="/"><b><i>My Favorite Recipes</i></b></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Form className="form-center">
         <FormControl type="text" placeholder="Search" className="" />

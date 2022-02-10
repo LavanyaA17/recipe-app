@@ -4,6 +4,7 @@ import Carousel from './components/Carousel';
 
 const GridWrapper = styled.div`
 display: grid;
+text-align:center;
 margin-top: 2rem;
 margin-left: 12em;
 margin-right: 6em;
@@ -15,13 +16,13 @@ export const Home = (props) => (
   <Carousel />
 
   <GridWrapper>
-    <h2> A food recipe blog infused with culture and love</h2>
-    <p>A food blog that makes cooking fun and simple - a perfect dish everytime! My easy and fail-proof recipes deliver authentic flavors using modern and innovative teachniques</p>
-    <ul>
-    <li>family-run, locally sourced, animal friendly recipes</li>
-    <li>100% bio, plant-based, sustainable and organic food, contact us for small orders</li>
-    <li>Not only recipes, cooking courses and books available</li>
-    </ul>
+    <h1><b><i>Welcome to My Favorite Recipes!</i></b></h1>
+    <h4> <i>This is a food recipe blog infused with culture and love </i></h4>
+    <p>We know that cooking for others is one of the greatest gifts you can give them. The time you invest from the shopping, to the prep, the cooking and cleanup – it’s a lot, but it’s always worth it. When you make something great, that’s what brings everyone to the table for Sunday dinner, family breakfast, or a slice of pie on the front porch. These are moments that one bite can take you back to. 
+      These are times that they’ll always treasure, every time you make a “favorite family recipe. My goal is to inspire you with food that is both approachable AND exciting”</p>
+    <p>Less STRESS and more JOY from my favorite RECIPES MADE FOR
+real, actual, everyday life.</p>
+  
   </GridWrapper>
   </>
 

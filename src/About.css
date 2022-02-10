@@ -1,31 +1,59 @@
 .about-wrapper{
-    border: solid rgb(131, 209, 214);
+    border: 30px solid rgb(228, 175, 207);
+    background: lightgrey;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  .about-wrapper>h1{
+  text-decoration: underline;
+  }
+
+  .about-me{ 
+    border: 5px solid lightgrey;
+    padding-left: 10%;
+    text-align: left;
+
+  }
   
   .allGalleries{
-    border: solid rgb(145, 136, 116);
+    border: 10px solid rgb(179, 177, 174);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   
   }
   
   .gallery{
-    border: solid rgb(196, 245, 237);
+    border: 10px solid rgb(173, 182, 180);
+    margin-left: 1.5%;
     width: 20%;
   }
   
-  .gallery img {
-    width: 30%;
+ /* .gallery img {
+    width: 50%;
+  }*/
+
+  div.gallery img {
+    width: 60%;
+    height: 70%;
+    object-position: center;
   }
+  
   
   .column img {
     width: 100%;
+  } 
+
+  div.desc {
+    padding: 15px;
+    text-align: left;
   }
 
-  /* div.gallery {
+ /* div.gallery:hover {
+    border: 1px solid #777;
+  }
+
+   /* div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;

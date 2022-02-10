@@ -27,16 +27,26 @@ const Recipes = () => {
 
 
 console.log(recipes);
-
+  
   return (
+   
     <div className="Recipes_Container">
- { recipes && recipes.map((recipe) => (
+      <div className='header'>
+      <h1><i><b>Recipes & Cooking Ideas</b></i></h1>
+      <p><b><i>These are my absolute favorite recipes that I tried recently! You’ll find flavorful lunches and dinners,
+         and plenty of drool-worthy desserts that were on repeat in our house. 
+         I’m a firm believer in using easy ingredients
+         to create delicious recipes that my family and friends can easily re-create at home.</i></b></p>
+
+      </div>
+      { recipes && recipes.map((recipe) => (
        <div className="Recipe_Container">
-         <h1>{recipe.recipe_title}</h1>
+
+         <h1><i>{recipe.recipe_title}</i></h1>
          <img src={recipe.image}/> 
-         <p>{recipe.description}</p>
-        <p>{recipe.ingrdients}</p>
-         <p>{recipe.procedure}</p>
+         <p><h4><i>Description:</i></h4>{recipe.description}</p>
+        <p><h4><i>Ingredients:</i></h4>{recipe.ingredients}</p>
+         <p><h4><i>Procedure:</i></h4>{recipe.procedure}</p>
          
        </div>
      ))}

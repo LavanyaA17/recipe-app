@@ -12,7 +12,7 @@ export const Contact = () => {
     return(
      <>
   <div className="contact-wrapper">
-      <h2>Contact Us</h2>
+      <h1><b><i>Contact Me</i></b></h1>
       <div className="row">
       <div className="column">
             <img src={image1} alt="image1" /> 
